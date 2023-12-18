@@ -1,0 +1,37 @@
+/* Large screens from 1200 upward */
+@media (min-width: 1200px) {
+    .logo-container {
+        display: block !important;;
+    }
+
+    .logo-container-mobile {
+        display: none !important;
+    }
+
+    .login_form_container {
+        width: 50%;
+    }
+}
+
+/* Smaller screens below 1200 */
+@media (max-width: 1200px) {
+    .logo-container {
+        display: none !important;;
+    }
+
+    .logo-container-mobile {
+        display: block !important;;
+    }
+
+    .login_form_wrapper {
+        margin: 15px 54px 54px;
+    }
+
+    .login_form_container {
+        width: 100%;
+    }
+
+    .splashscreen_container_side,  .splashscreen_container {
+        display: none;
+    }
+}

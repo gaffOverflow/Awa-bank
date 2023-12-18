@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>OTP</title>
+
+  <!-- Bootstrap -->
+  <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- NProgress -->
+  <link href="vendors/nprogress/nprogress.css" rel="stylesheet">
+  <!-- Animate.css -->
+  <link href="vendors/animate.css/animate.min.css" rel="stylesheet">
+  <link rel="icon" href="images/favicon.ico" type="image/ico"/>
+  <!-- Custom Theme Style -->
+  <link href="build/css/custom.min.css" rel="stylesheet">
+  <link href="css/theme.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body class="login">
+
+<div class="logo-container d-flex justify-content-end">
+  <img src="images/logo_white.png" class="nav-logo" alt=""/>
+</div>
+
+<div class="logo-container-mobile d-flex justify-content-start">
+  <img src="images/logo_white.png" class="nav-logo" alt=""/>
+</div>
+
+
+<div class="login_form_container">
+  <div class="login_form_wrapper">
+    <h1>OTP</h1>
+    <p>Please enter the verification code sent to s*******@gmail.com</p>
+    <form>
+
+      <div class="mt-4"></div>
+      <div class="form-row">
+        <div class="col login-col">
+          <input type="text" class="form-control" value="1" id="field1" maxlength="5" pattern="\d{1}" required>
+        </div>
+        <div class="col login-col">
+          <input type="text" class="form-control" value="2" id="field2" maxlength="5" pattern="\d{1}" required>
+        </div>
+        <div class="col login-col">
+          <input type="text" class="form-control" value="3" id="field3" maxlength="5" pattern="\d{1}" required>
+        </div>
+        <div class="col login-col">
+          <input type="text" class="form-control" value="4" id="field4" maxlength="5" pattern="\d{1}" required>
+        </div>
+        <div class="col login-col">
+          <input type="text" class="form-control" value="5" id="field5" maxlength="5" pattern="\d{1}"  required>
+        </div>
+        <div class="col login-col">
+          <input type="text" class="form-control" value="6" id="field6" maxlength="5" pattern="\d{1}"  required>
+        </div>
+        <!-- Add more fields as needed -->
+      </div>
+
+      <div class="button-wrapper">
+        <a href="password_change.html" class="btn btn-primary btn-awacash-blue d-block w-100">Next</a>
+      </div>
+
+      <div class="text-center" style="margin-top:20px;">
+      <span class="psw">Didn't receive OTP? <a href="password_reset.html">Resend OTP</a></span>
+      </div>
+
+
+    </form>
+  </div>
+</div>
+
+
+
+<div class="splashscreen_container_side">
+  <img src="images/splashscreen.png" class="splashscreen" alt=""/>
+</div>
+
+
+
+<!-- jQuery -->
+<script src="vendors/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom Theme Scripts -->
+<script src="js/login.js"></script>
+
+
+</body>
+</html>
