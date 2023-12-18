@@ -29,7 +29,7 @@ Welcome to Awa Cash Internet Banking, a web application for managing your financ
 
 |S/N         | Name       |   Contibutions| 
 |------------|----------------|-------------------------|
-|1.| Gaffar| added AwaCash folder and renamded the README.md to Awa-README.md
+|1.| Gaffar| added AwaCash folder
 |2.| Lorem| Enter Your Contributions here 👇🏾
 
 
