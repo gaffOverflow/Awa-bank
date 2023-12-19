@@ -30,7 +30,8 @@ Welcome to Awa Cash Internet Banking, a web application for managing your financ
 |S/N         | Name       |   Contibutions| 
 |------------|----------------|-------------------------|
 |1.| Gaffar| added AwaCash folder
-|2.| Lorem| Enter Your Contributions here 👇🏾
+|2.| Gaffar| - Modify awa-dashboard.html for improved styling <br> - Move the 'style' folder into 'AwaCash' for a more organized structure <br> - Update the link to style.css to match the new project routes
+|3.| Lorem| Enter Your Contributions here 👇🏾
 
 
 
