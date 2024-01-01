@@ -18,7 +18,7 @@ Welcome to Awa Cash Internet Banking, a web application for managing your financ
 
 | Name       | GitHub Username         | Role           | 
 |------------|-------------------------|----------------|
-| Gaffar   | [john-doe](https://github.com/john-doe) | Developer      |
+| Gaffar   | [gaffOverflow](https://github.com/gaffOverflow) | Developer      |
 | Basit | [jane-smith](https://github.com/jane-smith) | Developer       |
 | Samuel| [alex-johnson](https://github.com/alex-johnson) | Developer   |
 
@@ -31,7 +31,8 @@ Welcome to Awa Cash Internet Banking, a web application for managing your financ
 |------------|----------------|-------------------------|
 |1.| Gaffar| added AwaCash folder
 |2.| Gaffar| - Modify awa-dashboard.html for improved styling <br> - Move the 'style' folder into 'AwaCash' for a more organized structure <br> - Update the link to style.css to match the new project routes
-|3.| Lorem| Enter Your Contributions here 👇🏾
+|3.| Gaffar| I have added new "awa-dashboard2.html"
+|4.| Lorem| Enter Your Contributions here 👇🏾
 
 
 
