@@ -31,7 +31,7 @@ Welcome to Awa Cash Internet Banking, a web application for managing your financ
 |------------|----------------|-------------------------|
 |1.| Gaffar| added AwaCash folder
 |2.| Gaffar| - Modify awa-dashboard.html for improved styling <br> - Move the 'style' folder into 'AwaCash' for a more organized structure <br> - Update the link to style.css to match the new project routes
-|3.| Gaffar| I have added new "awa-dashboard2.html"
+|3.| Gaffar| - I have added new "awa-dashboard2.html" <br> - Renamed "style.css" to "awa-dashboard.css" and created another "style.css" for universal styling. <br> - Universal styling in  progress, color templates, fontsizes and family along with other reuseable styles.
 |4.| Lorem| Enter Your Contributions here 👇🏾
 
 
