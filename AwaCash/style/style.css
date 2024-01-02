@@ -15,7 +15,8 @@
   /*Color mode HSL(hue, saturation, lightness)*/
 
   --first-color: hsl(207, 65%, 65%);
-  --title-color: #2793eb;
+  --title-color: #279;
+  --awacash-blue: #2793eb;
   --text-color: #606f7b;
   --text-color-light: #8a8f93;
   --body-color: #fff;
@@ -108,6 +109,11 @@ ul {
 a {
   text-decoration: none;
   color: var(--text-color);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--awacash-blue);
 }
 
 img {
@@ -388,4 +394,34 @@ img {
   .section__border {
     padding-bottom: 6rem;
   }
+}
+
+
+.parent_container{
+  display: flex;
+  gap: .1rem;
+}
+
+nav{
+  background: var(--container-color);
+}
+
+aside{
+  width: 100%;
+  height: 100vh;
+}
+
+.top__bar{
+  background: var(--container-color);
+  text-align: center;
+  margin-bottom: .1rem;
+}
+
+main{
+  background: var(--container-color);
+  width: 100%;
+  height: 100%;
+  font-size: var(--biggest-font-size);
+  display: grid;
+  place-content: center;
 }
