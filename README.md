@@ -19,7 +19,7 @@ Welcome to Awa Cash Internet Banking, a web application for managing your financ
 | Name       | GitHub Username         | Role           | 
 |------------|-------------------------|----------------|
 | Gaffar   | [gaffOverflow](https://github.com/gaffOverflow) | Developer      |
-| Basit | [jane-smith](https://github.com/jane-smith) | Developer       |
+| Basit | [lharmeedey](https://github.com/lharmeedey) | Developer       |
 | Samuel| [alex-johnson](https://github.com/alex-johnson) | Developer   |
 
 
