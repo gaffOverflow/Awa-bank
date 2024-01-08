@@ -181,7 +181,12 @@ input:checked + .slider:before {
     text-align: right;
 }
 
+canvas {
+    border: 1px solid #ddd;
+  }
 
+
+  
 @media screen and (min-width: 576px) {
     .parent_container{
         width: 100%;
