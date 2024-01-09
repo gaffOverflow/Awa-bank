@@ -20,7 +20,7 @@ Welcome to Awa Cash Internet Banking, a web application for managing your financ
 |------------|-------------------------|----------------|
 | Gaffar   | [gaffOverflow](https://github.com/gaffOverflow) | Developer      |
 | Basit | [lharmeedey](https://github.com/lharmeedey) | Developer       |
-| Samuel| [](https://github.com/) | Developer   |
+
 
 
 <!-- Write Your Conrtibutions Here -->
