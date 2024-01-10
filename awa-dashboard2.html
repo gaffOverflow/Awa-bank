@@ -37,7 +37,7 @@
     <link href="./AwaCash/style/style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="parent_container">
+    <div class="parent__container">
       <nav>
         <img
           src="./AwaCash/asset/Awacash Logo Screenshot 3.png"
@@ -69,11 +69,66 @@
       </nav>
       <aside>
         <div class="top__bar">This is Top Bar</div>
+       
         <main>
-          
-          This is Main
 
+          <!-- ======== ACCOUNT BALANCE SECTION ======== -->
 
+          <section class="all_container">
+            <span class="section__title"> Account Balance</span>
+            <div class="section__container">
+              <div class="section__cards__1">
+                <p class="first_para">Kreateng- 0012234455</p>
+                <p class="second_para">Available Balance</p>
+                <p class="third_para">#5000.00</p>
+                <div class="hay">
+                  <p class="last_para">Hide available balance</p>
+                  <div class="content">
+                    <label class="switch">
+                      <input type="checkbox" />
+                      <span class="slider round"></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="section__cards__2">
+                <p class="first_para">Kreateng- 0012234455</p>
+                <p class="second_para">Available Balance</p>
+                <p class="third_para">#5000.00</p>
+                <div class="hay">
+                  <p class="last_para">Hide available balance</p>
+                  <div class="content">
+                    <label class="switch">
+                      <input type="checkbox" />
+                      <span class="slider round"></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="section__cards__2">
+                <p class="first_para">Kreateng- 0012234455</p>
+                <p class="second_para">Available Balance</p>
+                <p class="third_para">#5000.00</p>
+
+                <div class="hay">
+                  <p class="last_para">Hide available balance</p>
+                  <div class="content">
+                    <label class="switch">
+                      <input type="checkbox" />
+                      <span class="slider round"></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <br /><br />
+
+          <canvas id="myChart" width="400" height="200"></canvas>
+
+          <script src="./AwaCash/Script/awa-dashboard.js"></script>
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
         </main>
       </aside>
     </div>
