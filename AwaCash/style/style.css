@@ -35,10 +35,12 @@
   --body-font: "Roboto", sans-serif;
   --title-font: "Lora", serif;
   --biggest-font-size: 1.5rem;
-  --h1-font-size: 1.5rem;
+  --h1-font-size: 1rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
-  --normal-font-size: 0.78rem;
+  --font-size: 0.8rem;
+
+  --normal-font-size: 0.76rem;
   --small-font-size: 0.813rem;
   --smaller-font-size: 0.75rem;
   --tiny-font-size: 0.625rem;
@@ -57,7 +59,7 @@
 
 /* Responsive typography */
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   :root {
     --biggest-font-size: 3rem;
     --h1-font-size: 2rem;
@@ -68,7 +70,7 @@
     --smaller-font-size: 0.813rem;
     --tiny-font-size: 0.688rem;
   }
-}
+} */
 
 /*=============== BASE ===============*/
 
@@ -201,8 +203,6 @@ img {
   }
 }
 
-
-
 .parent__container {
   position: relative;
 }
@@ -264,11 +264,12 @@ aside {
   height: 170.854px;
   margin-top: 10px;
 }
+
 .section__title {
   color: var(--Grey-600, #74828e);
   text-align: center;
   font-family: DM Sans;
-  font-size: 20px;
+  font-size: var(--h2-font-size);
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
@@ -277,7 +278,7 @@ aside {
 .first_para {
   font-feature-settings: "ss03" on, "clig" off, "liga" off;
   font-family: DM Sans;
-  font-size: 15.621px;
+  font-size: var(--font-size);
   font-style: normal;
   font-weight: 500;
   line-height: 15.621px; /* 100% */
@@ -287,7 +288,7 @@ aside {
   /* color: #EFEFEF; */
   font-feature-settings: "ss03" on, "clig" off, "liga" off;
   font-family: DM Sans;
-  font-size: 11.716px;
+  font-size: var(--small-font-size);
   font-style: normal;
   font-weight: 400;
   line-height: 15.621px; /* 133.333% */
@@ -297,7 +298,7 @@ aside {
   /* color: var(--Neutral-White, #FFF); */
   font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
-  font-size: 27.337px;
+  font-size: var(--h1-font-size);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -307,7 +308,7 @@ aside {
 .last_para {
   font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
-  font-size: 9.763px;
+  font-size: var(--tiny-font-size);
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 14.645px */
@@ -378,20 +379,27 @@ input:checked + .slider:before {
   align-items: center;
 }
 
-
-
 canvas {
   border: 1px solid #ddd;
 }
 
-
-
 /* ========== BREAK POINT ========= */
-
 
 /* -------- 576 Break Point --------*/
 
 @media screen and (min-width: 576px) {
+  :root {
+    --biggest-font-size: 3rem;
+    --h1-font-size: 20.337px;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --font-size: 0.9rem;
+    --normal-font-size: 0.77rem;
+    --small-font-size: 0.855rem;
+    --smaller-font-size: 0.793rem;
+    --tiny-font-size: 0.668rem;
+  }
+
   .section__container {
     width: 100%;
     margin: 0;
@@ -404,6 +412,18 @@ canvas {
 /* -------- 800 Break Point --------*/
 
 @media screen and (min-width: 800px) {
+  :root {
+    --biggest-font-size: 3rem;
+    --h1-font-size: 25.337px;
+    --h2-font-size: 1.4rem;
+    --h3-font-size: 1.25rem;
+    --font-size: 0.95rem;
+    --normal-font-size: 0.79rem;
+    --small-font-size: 0.865rem;
+    --smaller-font-size: 0.803rem;
+    --tiny-font-size: 0.678rem;
+  }
+
   .section__container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -416,8 +436,19 @@ canvas {
 
 /* -------- 1023 Break Point --------*/
 
-
 @media screen and (min-width: 1023px) {
+  :root {
+    --biggest-font-size: 3rem;
+    --h1-font-size: 27.337px;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --font-size: 1rem;
+    --normal-font-size: 0.8rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+    --tiny-font-size: 0.688rem;
+  }
+
   .section__container {
     align-items: center;
     gap: 20px;
